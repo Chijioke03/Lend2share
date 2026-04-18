@@ -5,8 +5,8 @@
  * On success attaches `req.user` with the decoded claims.
  */
 
-const { verifyToken } = require('../config/tokens');
-const userStore = require('../models/userStore');
+const { verifyToken } = require('./tokens');
+const userStore = require('./userStore');
 
 module.exports = function requireAuth(req, res, next) {
     const authHeader = req.headers.authorization;

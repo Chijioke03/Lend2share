@@ -8,7 +8,7 @@
  */
 
 const express = require('express');
-const requireAuth = require('../middleware/auth.middleware');
+const requireAuth = require('./auth.middleware');
 
 const router = express.Router();
 

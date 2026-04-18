@@ -13,8 +13,8 @@ const { body, validationResult } = require('express-validator');
 const { v4: uuidv4 } = require('uuid');
 const rateLimit = require('express-rate-limit');
 
-const userStore = require('../models/userStore');
-const { issueAccessToken, issueRefreshToken, verifyToken } = require('../config/tokens');
+const userStore = require('./userStore');
+const { issueAccessToken, issueRefreshToken, verifyToken } = require('./tokens');;
 
 const router = express.Router();
 const BCRYPT_ROUNDS = parseInt(process.env.BCRYPT_ROUNDS, 10) || 12;

@@ -11,6 +11,7 @@
  *  7. Input validation — express-validator (per route)
  */
 
+//require('./auth.routes').config();
 require('dotenv').config();
 
 const express = require('express');
@@ -19,8 +20,8 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const rateLimit = require('express-rate-limit');
 
-const authRoutes = require('./routes/auth.routes');
-const dashboardRoutes = require('./routes/dashboard.routes');
+const authRoutes = require('./auth.routes');
+const dashboardRoutes = require('./dashboard.routes');
 
 const app = express();
 

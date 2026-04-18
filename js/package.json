@@ -2,7 +2,7 @@
     "name": "credlink-backend",
     "version": "1.0.0",
     "scripts": {
-        "start": "node src/app.js",
+        "start": "node app.js",
         "dev": "node --watch src/app.js"
     },
     "engines": {
