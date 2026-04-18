@@ -129,3 +129,6 @@ Without this, an attacker could measure response times: fast = unknown email, sl
 - [ ] Add structured logging (Winston / Pino) with audit trails for all auth events
 - [ ] Set up database-level encryption for PII (email, phone)
 - [ ] Consider adding 2FA (TOTP) before handling real money
+
+
+

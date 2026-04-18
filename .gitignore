@@ -1,0 +1,75 @@
+# =========================
+# ENV FILES (NEVER COMMIT)
+# =========================
+.env
+.env.local
+.env.development
+.env.example
+.env.production
+
+# =========================
+# DEPENDENCIES
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# BUILD OUTPUT
+# =========================
+dist/
+build/
+out/
+.next/
+coverage/
+
+# =========================
+# FRONTEND (Vite / React)
+# =========================
+.vite/
+.cache/
+
+# =========================
+# BACKEND (Node)
+# =========================
+logs/
+*.log
+nodemon-debug.log*
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# EDITOR / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# DATABASE FILES (if any local dev DB)
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# SECRETS / KEYS
+# =========================
+*.pem
+*.key
+
+# =========================
+# TEST / COVERAGE
+# =========================
+coverage/
+
+# =========================
+# OPTIONAL: DEBUG
+# =========================
+debug.log
