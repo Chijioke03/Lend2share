@@ -1,4 +1,6 @@
-/*AUTHENTICATION STYLES*/
+/* ============================================
+   AUTHENTICATION STYLES
+   ============================================ */
 
 .auth-container {
     display: flex;
@@ -11,8 +13,7 @@
     overflow: hidden;
 }
 
-/* ANIMATED BACKGROUND ELEMENTS */
-
+/* Animated background elements */
 .auth-container::before,
 .auth-container::after {
     content: '';
@@ -49,8 +50,7 @@
     }
 }
 
-/* AUTH FORM CONTAINER */
-
+/* Auth Form Container */
 .auth-form {
     position: absolute;
     width: 100%;
@@ -73,8 +73,7 @@
     position: relative;
 }
 
-/* FORM HEADER */
-
+/* Form Header */
 .form-header {
     text-align: center;
     margin-bottom: 2rem;
@@ -137,8 +136,7 @@
     gap: 1rem;
 }
 
-/* PASSWORD FIELD */
-
+/* Password Field */
 .password-field {
     position: relative;
     display: flex;
@@ -172,8 +170,7 @@
     font-size: 1.2rem;
 }
 
-/* PASSWORD STRENGTH INDICATOR*/
-
+/* Password Strength Indicator */
 .password-strength {
     margin-top: 8px;
     height: 4px;
@@ -216,8 +213,7 @@
     display: block;
 }
 
-/* ERROR MESSAGE */
-
+/* Error Message */
 .error-message {
     display: block;
     color: var(--error-color);
@@ -240,8 +236,7 @@
     background: rgba(239, 68, 68, 0.05);
 }
 
-/* FORM DIVIDER */
-
+/* Form Divider */
 .form-divider {
     display: flex;
     align-items: center;
@@ -260,8 +255,7 @@
     background: var(--border-color);
 }
 
-/* FORM FOOTER */
-
+/* Form Footer */
 .form-footer {
     text-align: center;
     margin-top: 2rem;
@@ -290,8 +284,7 @@
     font-weight: 500;
 }
 
-/* SUCCESS MESSAGE */
-
+/* Success Message */
 .success-message {
     position: fixed;
     top: 0;
@@ -366,8 +359,7 @@
     }
 }
 
-/* INPUT FOCUS STATES */
-
+/* Input Focus States */
 input:invalid:not(:placeholder-shown) {
     border-color: var(--error-color);
 }
@@ -376,7 +368,9 @@ input:valid:not(:placeholder-shown) {
     border-color: var(--success-color);
 }
 
-/* RESPONSIVE DESIGN*/
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
 
 @media (max-width: 768px) {
     .auth-form {
